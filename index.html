@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +14,14 @@
 
     <title>Youtube Clone</title>
 </head>
+
 <body>
     <header class="header">
         <div class="left-section">
             <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="hamburger-menu">
             <a href="index.html">
                 <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
-            </a>  
+            </a>
         </div>
         <div class="middle-section">
             <input class="search-bar" type="search" name="search" placeholder="Search">
@@ -41,7 +43,7 @@
                 <img class="yt-img nagivation-icon" src="icons/youtube-apps.svg" alt="">
                 <div class="tooltip-txt">Youtube Apps</div>
             </div>
-            
+
             <div class="notification-div tooltip">
                 <img class="yt-img notification-icon" src="icons/notifications.svg" alt="">
                 <div class="notification-count">3</div>
@@ -51,7 +53,7 @@
                 <img class="yt-img profile-img" src="channel-picture/mychannel1.png" alt="">
                 <div class="tooltip-txt">Tahir Ahmed</div>
             </div>
-            
+
         </div>
     </header> <!-- Head section ends-->
 
@@ -86,7 +88,7 @@
         </div>
     </nav>
 
-    
+
     <main>
         <section class="video-grid">
             <div class="video-preview">
@@ -94,7 +96,7 @@
                     <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
                         <img class="thumbnail" src="thumnails/thumbnail-1.webp" alt="">
                     </a>
-                    
+
                     <div class="video-time">
                         14.20
                     </div>
@@ -102,7 +104,13 @@
                 <div class="video-row-grid">
                     <div class="channel-picture">
                         <img class="profile-picture" src="channel-picture/channel-1.jpeg" alt="">
-    
+                        <div class="tooltip">
+                            <img class="profile-picture-bg" src="channel-picture/channel-1.jpeg" alt="">
+                            <div>
+                                <p class="channel-name">Marques Brownlee</p>
+                                <p class="subs-count">17M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
                         <p class="video-title">
@@ -114,16 +122,16 @@
                         <p class="video-stats">
                             4.2M views &#183; 6 months ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
-        
+
             <div class="video-preview">
                 <div class="first">
                     <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
                         <img class="thumbnail" src="thumnails/thumbnail-2.webp" alt="">
                     </a>
-                    
+
                     <div class="video-time">
                         8:22
                     </div>
@@ -131,6 +139,13 @@
                 <div class="video-row-grid">
                     <div class="channel-picture">
                         <img class="profile-picture" src="channel-picture/channel-2.jpeg" alt="">
+                        <div class="tooltip">
+                            <img class="profile-picture-bg" src="channel-picture/channel-2.jpeg" alt="">
+                            <div>
+                                <p class="channel-name">Markiplier</p>
+                                <p class="subs-count">15M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
                         <p class="video-title">
@@ -142,11 +157,11 @@
                         <p class="video-stats">
                             19M views &#183; 4 years ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
-        
-        
+
+
             <div class="video-preview">
                 <div class="first">
                     <img class="thumbnail" src="thumnails/thubnail-15.webp" alt="">
@@ -158,7 +173,14 @@
                     <div class="channel-picture">
                         <a href="https://www.youtube.com/watch?v=u0laTWsoNvs">
                             <img class="profile-picture" src="channel-picture/channel-12.jpg" alt="">
-                        </a>    
+                        </a>
+                        <div class="tooltip">
+                            <img class="profile-picture-bg" src="channel-picture/channel-12.jpg" alt="">
+                            <div>
+                                <p class="channel-name">The Futur</p>
+                                <p class="subs-count">5M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
                         <p class="video-title">
@@ -170,10 +192,10 @@
                         <p class="video-stats">
                             17K views &#183; 3 days ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
-    
+
             <div class="video-preview">
                 <div class="first">
                     <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
@@ -185,10 +207,20 @@
                 </div>
                 <div class="video-row-grid">
                     <div class="channel-picture">
-                        <img class="profile-picture" src="channel-picture/channel-4.jpeg" alt="">
+                        <a href="https://www.youtube.com/@veritasium">
+                            <img class="profile-picture" src="channel-picture/channel-4.jpeg" alt="">
+                        </a>
+                        <div class="tooltip">
+
+                            <img class="profile-picture-bg" src="channel-picture/channel-4.jpeg" alt="">
+                            <div>
+                                <p class="channel-name">Veritasium</p>
+                                <p class="subs-count">13.8M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
-                        <p class="video-title">                 
+                        <p class="video-title">
                             The Simplest Math Problem No One Can Solve - Collatz Conjecture
                         </p>
                         <p class="video-author">
@@ -197,25 +229,34 @@
                         <p class="video-stats">
                             34M views &#183; 4 months ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
-    
+
             <div class="video-preview">
                 <div class="first">
-                    <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                    <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
                         <img class="thumbnail" src="thumnails/thumbnail-5.webp" alt="">
-                    </a>               
+                    </a>
                     <div class="video-time">
                         11:17
                     </div>
                 </div>
                 <div class="video-row-grid">
                     <div class="channel-picture">
-                        <img class="profile-picture" src="channel-picture/channel-5.jpeg" alt="">
+                        <a href="https://www.youtube.com/@CSDojo">
+                            <img class="profile-picture" src="channel-picture/channel-5.jpeg" alt="">
+                        </a>
+                        <div class="tooltip">
+                            <img class="profile-picture-bg" src="channel-picture/channel-5.jpeg" alt="">
+                            <div>
+                                <p class="channel-name">CS Dojo</p>
+                                <p class="subs-count">1.9M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
-                        <p class="video-title">       
+                        <p class="video-title">
                             Kadane's Algorithm to Maximum Sum Subarray Problem
                         </p>
                         <p class="video-author">
@@ -224,20 +265,31 @@
                         <p class="video-stats">
                             519K views &#183; 5 years ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
-    
+
             <div class="video-preview">
                 <div class="first">
-                    <img class="thumbnail" src="thumnails/thumbnail-6.webp" alt="">
+                    <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                        <img class="thumbnail" src="thumnails/thumbnail-6.webp" alt="">
+                    </a>
                     <div class="video-time">
                         19:59
                     </div>
                 </div>
                 <div class="video-row-grid">
                     <div class="channel-picture">
-                        <img class="profile-picture" src="channel-picture/channel-6.jpeg" alt="">
+                        <a href="https://www.youtube.com/@MrBeast">
+                            <img class="profile-picture" src="channel-picture/channel-6.jpeg" alt="">
+                        </a>
+                        <div class="tooltip">
+                            <img class="profile-picture-bg" src="channel-picture/channel-6.jpeg" alt="">
+                            <div>
+                                <p class="channel-name">MrBeast</p>
+                                <p class="subs-count">163M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
                         <p class="video-title">
@@ -249,7 +301,7 @@
                         <p class="video-stats">
                             141M views &#183; 1 years ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
 
@@ -258,18 +310,28 @@
                     <a href="https://www.youtube.com/watch?v=XkxZCJ2pYqs">
                         <img class="thumbnail" src="thumnails/thubnail-13.webp" alt="">
                     </a>
-                    
+
                     <div class="video-time">
                         1:38:37
                     </div>
                 </div>
                 <div class="video-row-grid">
                     <div class="channel-picture">
-                        <img class="profile-picture" src="channel-picture/channel-10.jpg" alt="">
+                        <a href="https://www.youtube.com/@TheDiaryOfACEO">
+                            <img class="profile-picture" src="channel-picture/channel-10.jpg" alt="">
+                        </a>
+                        <div class="tooltip">
+                            <img class="profile-picture-bg" src="channel-picture/channel-10.jpg" alt="">
+                            <div>
+                                <p class="channel-name">The Diary Of A CEO</p>
+                                <p class="subs-count">2.44M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
                         <p class="video-title">
-                            The Money Expert: From $0 to Millions In 2 Years Without Any Hard Work!: Codie Sanchez | E258
+                            The Money Expert: From $0 to Millions In 2 Years Without Any Hard Work!: Codie Sanchez |
+                            E258
                         </p>
                         <p class="video-author">
                             The Diary Of A CEO
@@ -277,7 +339,7 @@
                         <p class="video-stats">
                             345k views &#183; 3 days ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
 
@@ -286,14 +348,23 @@
                     <a href="https://www.youtube.com/watch?v=godVDNVWeso">
                         <img class="thumbnail" src="thumnails/thubnail-14.webp" alt="">
                     </a>
-                    
+
                     <div class="video-time">
                         9:51
                     </div>
                 </div>
                 <div class="video-row-grid">
                     <div class="channel-picture">
-                        <img class="profile-picture" src="channel-picture/channel-11.jpg" alt="">
+                        <a href="https://www.youtube.com/@BuddhismInEnglish">
+                            <img class="profile-picture" src="channel-picture/channel-11.jpg" alt="">
+                        </a>
+                        <div class="tooltip">
+                            <img class="profile-picture-bg" src="channel-picture/channel-11.jpg" alt="">
+                            <div>
+                                <p class="channel-name">Buddhism</p>
+                                <p class="subs-count">1.42M Subscriber</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="video-info">
                         <p class="video-title">
@@ -305,14 +376,15 @@
                         <p class="video-stats">
                             217k views &#183; 7 days ago
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
-    
+
         </section>
     </main>
-    
 
-    
+
+
 </body>
+
 </html>
