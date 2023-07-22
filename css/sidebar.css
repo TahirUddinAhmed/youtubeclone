@@ -54,11 +54,13 @@
 .sidebar-link {
     /* border: 1px solid; */
      /* width: 100%; */
-    padding-left: 20px;
-    height: 44px;
+    padding-left: 12px;
+    height: 37px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin: 1px 12px;
+    border-radius: 10px;
     
 }
 .sidebar-link:hover {
@@ -67,13 +69,13 @@
 }
 
 .sidebar-link div {
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     margin-top: 2px;
 }
 .sidebar-icon {
     width: 24px;
-    padding-right: 10px;
+    padding-right: 27px;
     /* margin: 0 auto; */
 }
 
@@ -96,7 +98,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       
+        margin: 0;
+        border-radius: 0;
         
         
     }
